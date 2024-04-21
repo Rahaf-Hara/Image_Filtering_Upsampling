@@ -1,4 +1,4 @@
-# Image Filtering and Upsampling Demonstration
+# Image Filtering and Upsampling
 
 ## Overview
 This project implements several filters and methods that aim to enhance image quality by reducing noise while preserving edges and to improve resolution through upsampling techniques. Demonstrations on the Cones dataset illustrate the effects of each method.
