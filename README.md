@@ -18,9 +18,9 @@ A user-friendly graphical interface allows for interactive tuning of upsampling 
 ## Point Cloud and Surface Reconstruction
 The Iterative Upsampling approach is used to upsample depth maps and generate 3D reconstructions:
 
-- ![Point Clouds](results/pc/pc.png)
-- ![Oriented Point Clouds](results/pc/oriented_pc.png)
-- ![Triangulated Surfaces](results/pc/triangulated.png)
+- Point Clouds ![Point Clouds](results/pc/pc.png)
+- Oriented Point Clouds ![Oriented Point Clouds](results/pc/oriented_pc.png)
+- Triangulated Surfaces ![Triangulated Surfaces](results/pc/triangulated.png)
 
 ## Setup and Usage
 Clone the repository and build it as follows:
