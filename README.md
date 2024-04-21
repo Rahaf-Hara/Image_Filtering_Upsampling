@@ -18,9 +18,9 @@ A user-friendly graphical interface allows for interactive tuning of upsampling 
 ## Point Cloud and Surface Reconstruction
 The Iterative Upsampling approach is used to upsample depth maps and generate 3D reconstructions:
 
-- Point Clouds ![Point Clouds](results/pc/pc.png)
-- Oriented Point Clouds ![Oriented Point Clouds](results/pc/oriented_pc.png)
-- Triangulated Surfaces ![Triangulated Surfaces](results/pc/triangulated.png)
+- **Point Clouds** ![Point Clouds](results/pc/pc.png)
+- **Oriented Point Clouds** ![Oriented Point Clouds](results/pc/oriented_pc.png)
+- **Triangulated Surfaces** ![Triangulated Surfaces](results/pc/triangulated.png)
 
 ## Setup and Usage
 Clone the repository and build it as follows:
@@ -37,14 +37,14 @@ To run the filters:
 ```bash
 ./filters mode input_image_path guide_image_path output_directory window_size sigma_range
 # Example:
- ./filters 1 ../images/Lena/lena.png ../images/Lena/lena.png ../results/Lena/JBF/ 5 51.8
+./filters 1 ../images/Lena/lena.png ../images/Lena/lena.png ../results/Lena/JBF/ 5 51.8
 
 ```
 To launch the GUI for interactive upsampling:
 ```bash
 ./upsampling_gui mode low_res_img_path high_res_img_path
 # Example:
- ./upsampling_gui 1 ../images/Aloe/disp1.png ../images/Aloe/view1.png
+./upsampling_gui 1 ../images/Aloe/disp1.png ../images/Aloe/view1.png
 ```
 
 
